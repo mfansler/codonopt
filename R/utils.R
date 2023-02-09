@@ -1,4 +1,11 @@
+#' Codon Conversion
 #' @rdname as_codons
+#' @description Method for converting from DNA or RNA strings in various formats
+#' to a set of codons.
+#' @details This converts a sequence to a character vector of DNA triplets.
+#' This function is not vectorized. Supported input types are \code{DNAString},
+#' \code{RNAString}, and \code{character} vector.
+#'
 #' @param sequence an object representing a translatable sequence
 #'
 #' @return a character vector of DNA triplets
@@ -9,12 +16,7 @@ setGeneric("as_codons", signature=c("sequence"),
            function(sequence) standardGeneric("as_codons")
 )
 
-
-#' Codon Conversion
 #' @rdname as_codons
-#' @param sequence a \code{DNAString} object
-#'
-#' @return a character vector of DNA triplets
 #'
 #' @examples
 #' orf <- Biostrings::DNAString("ATGAAATAG")
@@ -27,11 +29,7 @@ setMethod("as_codons", "DNAString", function (sequence) {
     as(codons(sequence), "character")
 })
 
-#' Codon Conversion
 #' @rdname as_codons
-#' @param sequence a \code{RNAString} object
-#'
-#' @return a character vector of DNA triplets
 #'
 #' @examples
 #' rna <- Biostrings::RNAString("AUGAAAUAG")
@@ -43,11 +41,7 @@ setMethod("as_codons", "RNAString", function (sequence) {
     as_codons(as(sequence, "DNAString"))
 })
 
-#' Codon Conversion
 #' @rdname as_codons
-#' @param sequence a \code{character} object of length 1
-#'
-#' @return a character vector of DNA triplets
 #'
 #' @examples
 #' rna <- "AUGAAAUAG"
@@ -63,4 +57,3 @@ setMethod("as_codons", "character", function (sequence) {
     stopifnot(length(sequence) == 1)
     as_codons(as(chartr("Uu", "Tt", sequence), "DNAString"))
 })
-

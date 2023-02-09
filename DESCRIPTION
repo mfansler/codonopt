@@ -19,3 +19,4 @@ Imports:
     Biostrings,
     memoise,
     methods
+URL: https://mfansler.github.io/codonopt/

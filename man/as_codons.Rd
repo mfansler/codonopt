@@ -16,23 +16,19 @@ as_codons(sequence)
 \S4method{as_codons}{character}(sequence)
 }
 \arguments{
-\item{sequence}{a \code{character} object of length 1}
+\item{sequence}{an object representing a translatable sequence}
 }
 \value{
 a character vector of DNA triplets
-
-a character vector of DNA triplets
-
-a character vector of DNA triplets
-
-a character vector of DNA triplets
 }
 \description{
-Codon Conversion
-
-Codon Conversion
-
-Codon Conversion
+Method for converting from DNA or RNA strings in various formats
+to a set of codons.
+}
+\details{
+This converts a sequence to a character vector of DNA triplets.
+This function is not vectorized. Supported input types are \code{DNAString},
+\code{RNAString}, and \code{character} vector.
 }
 \examples{
 orf <- Biostrings::DNAString("ATGAAATAG")

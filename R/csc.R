@@ -39,25 +39,31 @@
 csc_default <- function() { csc_k562_slam() }
 
 #' @rdname csc_default
+#' @importFrom memoise memoise
 #' @export
 csc_hela_endo <- memoise::memoise(.csc_hela_endo)
 
 #' @rdname csc_default
+#' @importFrom memoise memoise
 #' @export
 csc_k562_orfome <- memoise::memoise(.csc_k562_orfome)
 
 #' @rdname csc_default
+#' @importFrom memoise memoise
 #' @export
 csc_k562_slam <- memoise::memoise(.csc_k562_slam)
 
 #' @rdname csc_default
+#' @importFrom memoise memoise
 #' @export
 csc_rpe_endo <- memoise::memoise(.csc_rpe_endo)
 
 #' @rdname csc_default
+#' @importFrom memoise memoise
 #' @export
 csc_x293t_endo <- memoise::memoise(.csc_x293t_endo)
 
 #' @rdname csc_default
+#' @importFrom memoise memoise
 #' @export
 csc_x293t_orfome <- memoise::memoise(.csc_x293t_orfome)
