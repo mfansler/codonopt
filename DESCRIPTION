@@ -1,0 +1,20 @@
+Package: codonopt
+Version: 0.1.0
+Type: Package
+Title: Codon Optimality Tools
+Description: Functions for charactizing codon optimality.
+Authors@R: 
+    person(given = "Mervin",
+           family = "Fansler",
+           role = c("aut", "cre"),
+           email = "mef3005@med.cornell.edu",
+           comment = c(ORCID = "0000-0002-4108-4218"))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0)
+RoxygenNote: 7.2.3
+Imports: 
+    Biostrings,
+    methods
