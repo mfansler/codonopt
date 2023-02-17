@@ -1,5 +1,5 @@
 Package: codonopt
-Version: 0.1.0
+Version: 0.1.1
 Type: Package
 Title: Codon Optimality Tools
 Description: Functions for charactizing codon optimality.
@@ -20,3 +20,7 @@ Imports:
     memoise,
     methods
 URL: https://mfansler.github.io/codonopt/
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
