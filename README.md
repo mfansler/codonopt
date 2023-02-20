@@ -6,10 +6,13 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/mfansler/codonopt/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mfansler/codonopt/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The `codonopt` package provides methods for computing optimality scores
-for open reading frame sequences.
+The `codonopt` package provides methods for sampling from the possible
+codons of an amino acid sequence and for computing optimality scores for
+open reading frame sequences.
 
 ## Installation
 
@@ -17,13 +20,13 @@ You can install the development version of `codonopt` from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("mfansler/codonopt")
+# install.packages("remotes")
+remotes::install_github("mfansler/codonopt")
 ```
 
 ## Example
 
-This is a basic example which showing how to compute a simple optimality
+This is a basic example which shows how to compute a simple optimality
 score.
 
 ``` r

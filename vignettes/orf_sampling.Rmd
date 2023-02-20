@@ -2,17 +2,10 @@
 title: "Sampling ORFs of neonGreen"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Sampling ORFs of NeonGreen}
+  %\VignetteIndexEntry{Sampling ORFs of neonGreen}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 
 # Initialization
 ## Libraries

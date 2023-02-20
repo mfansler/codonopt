@@ -22,5 +22,7 @@ Imports:
 URL: https://mfansler.github.io/codonopt/
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    tidyverse
 VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)

@@ -1,7 +1,10 @@
 #' Codon Conversion
 #' @rdname as_codons
-#' @description Method for converting from DNA or RNA strings in various formats
+#' @description
+#' `r lifecycle::badge("experimental")`
+#' Method for converting from DNA or RNA strings in various formats
 #' to a set of codons.
+#'
 #' @details This converts a sequence to a character vector of DNA triplets.
 #' This function is not vectorized. Supported input types are \code{DNAString},
 #' \code{RNAString}, and \code{character} vector.
@@ -60,8 +63,11 @@ setMethod("as_codons", "character", function (sequence) {
 
 #' Amino Acid Conversion
 #' @rdname as_amino_acids
-#' @description Method for converting from biological strings in various formats
+#' @description
+#' `r lifecycle::badge("experimental")`
+#' Method for converting from biological strings in various formats
 #' to an amino acid sequence.
+#'
 #' @details This converts a sequence to a character vector of amino acids.
 #' This function is not vectorized. Supported input types are \code{DNAString},
 #' \code{RNAString}, and \code{character} vector.

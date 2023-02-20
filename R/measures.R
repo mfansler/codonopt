@@ -1,5 +1,9 @@
 #' Score for Fraction of Optimal Codons
 #'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#' Computes the fraction of codons with a codon stability score greater than zero.
+#'
 #' @param sequence a character vector with DNA triplets
 #' @param csc a named numeric
 #'
@@ -16,6 +20,10 @@ score_fraction_optimal <- function (sequence, csc=csc_default()) {
 }
 
 #' Score for Mean Codon Stability Coefficient
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#' Computes the mean codon stability score for a sequence.
 #'
 #' @param sequence a character vector with DNA triplets
 #' @param csc a named numeric

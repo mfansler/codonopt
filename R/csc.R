@@ -23,6 +23,8 @@
 
 #' Codon Stability Coefficients
 #'
+#' @description
+#' `r lifecycle::badge("experimental")`
 #' Codon stability coefficients (CSCs) objects.
 #'
 #'

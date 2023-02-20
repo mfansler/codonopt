@@ -1,5 +1,7 @@
 #' Codon Stabilization Coefficients
 #'
+#' @description
+#' `r lifecycle::badge("experimental")`
 #' Table of codon stabilization coefficients (CSCs) as reported by
 #' <https://doi.org/10.7554/eLife.45396>.
 #'

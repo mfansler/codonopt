@@ -27,11 +27,12 @@ csc_x293t_orfome()
 \value{
 A named numeric vector.
 \describe{
-  \item{names}{Codons (DNA triplets)}
-  \item{values}{CSCs for K562_ORFome}
+\item{names}{Codons (DNA triplets)}
+\item{values}{CSCs for K562_ORFome}
 }
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 Codon stability coefficients (CSCs) objects.
 }
 \examples{

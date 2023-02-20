@@ -12,10 +12,11 @@ score_fraction_optimal(sequence, csc = csc_default())
 \item{csc}{a named numeric}
 }
 \value{
-a numeric value in [0,1]
+a numeric value in \link{0,1}
 }
 \description{
-Score for Fraction of Optimal Codons
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+Computes the fraction of codons with a codon stability score greater than zero.
 }
 \examples{
 codons <- c("ATG", "TTA", "GAT", "TTA", "TAG")

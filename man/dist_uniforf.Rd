@@ -16,6 +16,7 @@ or \code{Biostrings::RNAString}}
 a character vector of sampled open reading frames
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 Implements a uniform distribution of possible open reading frames
 conditioned on an amino acid sequence or open reading frame.
 }
