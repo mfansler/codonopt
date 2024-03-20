@@ -7,7 +7,7 @@ Authors@R:
     person(given = "Mervin",
            family = "Fansler",
            role = c("aut", "cre"),
-           email = "mef3005@med.cornell.edu",
+           email = "fanslerm@mskcc.org",
            comment = c(ORCID = "0000-0002-4108-4218"))
 License: GPL-3
 Encoding: UTF-8
