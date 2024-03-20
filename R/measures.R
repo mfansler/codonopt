@@ -7,7 +7,7 @@
 #' @param sequence a character vector with DNA triplets
 #' @param csc a named numeric
 #'
-#' @return a numeric value in [0,1]
+#' @return a numeric value in \[0,1\]
 #' @export
 #'
 #' @examples
@@ -28,7 +28,7 @@ score_fraction_optimal <- function (sequence, csc=csc_default()) {
 #' @param sequence a character vector with DNA triplets
 #' @param csc a named numeric
 #'
-#' @return a numeric value in [0,1]
+#' @return a numeric value in \[0,1\]
 #' @export
 #'
 #' @examples
