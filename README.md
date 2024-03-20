@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/mfansler/codonopt/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mfansler/codonopt/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![DOI](https://zenodo.org/badge/599736124.svg)](https://zenodo.org/doi/10.5281/zenodo.10845962)
 <!-- badges: end -->
 
 The `codonopt` package provides methods for sampling from the possible
